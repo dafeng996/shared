@@ -11,7 +11,6 @@
   },
   "devDependencies": {
     "@types/node": "^16.9.2",
-    "gulp": "^4.0.2",
     "jest": "^27.2.0",
     "ts": "^0.2.2",
     "ts-node": "^10.2.1",
