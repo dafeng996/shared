@@ -1,2 +1,2 @@
 export * from './utils'
-export * from './dateFormat'
+export { default as dateFormat } from './dateFormat'

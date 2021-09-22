@@ -1,20 +1,17 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "ESNext",
     "declaration": true,
-    "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "ES3",
+    "target": "es5",
     "allowJs": true,
     "checkJs": true,
     "sourceMap": true,
-    "resolveJsonModule": true,
-    "outDir": "./dist",
+    "outDir": "./types",
     "baseUrl": ".",
-    "incremental": true,
     "strictNullChecks": true,
-    "noImplicitThis": false,
+    "noImplicitThis": false
   },
   "exclude": ["node_modules", "dist"],
   "include": ["src/**/*"]
